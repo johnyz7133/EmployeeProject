@@ -46,9 +46,9 @@ public static void main(String[] args) throws IOException{
 	} catch (Exception e) {
 		e.printStackTrace();
 	} finally {
-		if (ois != null) {
+		if (ois != null) 
 			ois.close();
-		}
+		
 	}
 	
 }
